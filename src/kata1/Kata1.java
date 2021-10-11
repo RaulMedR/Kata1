@@ -11,6 +11,7 @@ public class Kata1 {
         date = GregorianCalendar.getInstance();
         date.set(1949, 9, 24);
         
+        
         Person person = new Person("Blas", date);
         System.out.println(person.getName() + " tiene " + person.getAge() + " años");
     }
