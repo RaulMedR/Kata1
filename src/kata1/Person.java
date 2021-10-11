@@ -9,8 +9,9 @@ public class Person {
     private final long MILLISECONDS_PER_YEAR = (long) (1000*60*60*24*365.25);
 
     public Person(String name, Calendar birthdate) {
+        
+        this.birthdate = birthdate; 
         this.name = name;
-        this.birthdate = birthdate;
     }
 
     public String getName() {
